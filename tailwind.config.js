@@ -1,4 +1,5 @@
 module.exports = {
+    darkMode: 'media',
     content: [
         './_drafts/**/*.html',
         './_includes/**/*.html',
@@ -15,5 +16,8 @@ module.exports = {
             },
         },
     },
-    plugins: []
+    plugins: [
+        require('flowbite/plugin'),
+        require('flowbite-typography')
+    ]
 }
