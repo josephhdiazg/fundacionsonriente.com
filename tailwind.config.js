@@ -11,10 +11,10 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                'roboto': ['Roboto', 'sans-serif'],
-                'montserrat': ['Montserrat', 'sans-serif'],
-            },
-        },
+                roboto: 'Roboto',
+                montserrat: 'Montserrat',
+            }
+        }
     },
     plugins: [
         require('flowbite/plugin'),

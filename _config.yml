@@ -3,13 +3,13 @@ baseurl: ''
 title: 'Fundación Sonriente'
 
 plugins:
-  - jekyll-postcss
+  - jekyll-postcss-v2
 
 postcss:
   cache: false
 
 exclude:
   - package.json
+  - package-lock.json
   - postcss.config.js
   - tailwind.config.js
-  - yarn.lock
