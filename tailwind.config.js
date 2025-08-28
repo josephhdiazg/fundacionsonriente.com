@@ -1,5 +1,5 @@
 module.exports = {
-    darkMode: 'media',
+    darkMode: 'class',
     content: [
         './_drafts/**/*.html',
         './_includes/**/*.html',
