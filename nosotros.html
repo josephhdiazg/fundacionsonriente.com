@@ -41,3 +41,37 @@ title: "Nosotros"
         </div>
     </div>
 </section>
+
+<section>
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <div class="grid md:grid-cols-2">
+            <div class="flex items-center justify-center p-6 sm:p-12 md:order-last">
+                <div>
+                    <h3 class="mb-4 text-4xl font-extrabold leading-tight text-gray-900 dark:text-white">Misión sonriente</h3>
+                    <p class="mb-4 font-light text-gray-500 dark:text-gray-400">Construir tejido social desde la base de la unión, el respeto, la solidaridad, el amor y la educación a través de la recreación, construyendo un mensaje positivo a las nuevas generaciones, buscando crearles un criterio propio que ayude a forjar hombres y mujeres de bien para la sociedad.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center p-6 sm:p-12 md:order-last">
+                <div>
+                    <h3 class="mb-4 text-4xl font-extrabold leading-tight text-gray-900 dark:text-white">Visión sonriente</h3>
+                    <p class="mb-4 font-light text-gray-500 dark:text-gray-400">Para el 2030 la Fundación Sonriente, será un proyecto que beneficie a miles de niños y sus familias en estado de vulnerabilidad social, económica y de salud en el departamento de El Meta con la fiel creencia de educar a través de la esperanza, el amor y la felicidad.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-white dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+        <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Nuestro equipo</h2>
+            <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Somos un grupo de personas que trabajamos con cariño y compromiso para regalar sonrisas. En Sonriente cada integrante aporta lo mejor de sí, desde organizar actividades y juegos, hasta acompañar a las familias en momentos importantes.</p>
+        </div>
+
+        <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+            {% for member in site.data.team %}
+                {% include team_card.html member=member %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
