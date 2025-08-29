@@ -9,7 +9,8 @@ postcss:
   cache: false
 
 exclude:
-  - package.json
+  - .vscode
   - package-lock.json
+  - package.json
   - postcss.config.js
   - tailwind.config.js
