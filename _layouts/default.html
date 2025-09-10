@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "es-CO" }}">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>{{ page.title }} - {{ site.title }}</title>
-        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+
+        <link rel="stylesheet" href="assets/css/main.css">
     </head>
-    <body>
-        {{ content }}
+
+    <body class="bg-white dark:bg-gray-900 antialiased">
+        {% include navbar.html %}
+
+        <main class="mt-[65px] p-5">
+            {{ content }}
+        </main>
+
+        {% include footer.html %}
+
+        <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     </body>
 </html>

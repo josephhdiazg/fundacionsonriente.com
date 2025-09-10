@@ -1,15 +1,16 @@
 url: ''
 baseurl: ''
-title: 'Jekyllwind'
+title: 'Fundación Sonriente'
 
 plugins:
-  - jekyll-postcss
+  - jekyll-postcss-v2
 
 postcss:
   cache: false
 
 exclude:
+  - .vscode
+  - package-lock.json
   - package.json
   - postcss.config.js
   - tailwind.config.js
-  - yarn.lock
