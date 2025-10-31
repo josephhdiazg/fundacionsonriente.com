@@ -3,54 +3,54 @@ layout: default
 title: "Inicio"
 ---
 
-<section class="relative w-full px-6 py-20 bg-gradient-to-r from-blue-50 to-purple-50">
+<section class="relative w-full px-6 py-20 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900 dark:to-purple-900">
     <div class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 lg:grid-cols-2">
         <div class="space-y-6">
-            <h1 class="text-4xl font-bold leading-tight text-gray-900 lg:text-5xl">
+            <h1 class="text-4xl font-bold leading-tight text-gray-900 dark:text-gray-100 lg:text-5xl">
                 Construyendo Sonrisas,
-                <span class="text-blue-600"> Transformando Vidas</span>
+                <span class="text-blue-600 dark:text-blue-400"> Transformando Vidas</span>
             </h1>
 
-            <p class="text-lg leading-relaxed text-gray-600">
+            <p class="text-lg leading-relaxed text-gray-600 dark:text-gray-300">
                 Construimos conocimiento y oportunidades para transformar vidas.
                 Conoce nuestra misión, explora nuestros programas académicos y sé parte
                 de una comunidad comprometida con el futuro.
             </p>
 
-            <p class="text-base text-gray-600">
+            <p class="text-base text-gray-600 dark:text-gray-300">
                 Descubre cómo crecer con nosotros y accede a la información que necesitas de manera clara,
                 segura y transparente. ¡Tu camino hacia nuevas oportunidades empieza aquí!
             </p>
 
             <div class="flex flex-col gap-4 pt-4 sm:flex-row">
-                <button class="rounded-lg bg-blue-600 px-8 py-3 text-lg font-semibold text-white shadow-md hover:bg-blue-700">
+                <button class="rounded-lg bg-blue-600 px-8 py-3 text-lg font-semibold text-white shadow-md hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600">
                     Hacer una Donación
                 </button>
 
-                <button class="rounded-lg border border-gray-300 px-8 py-3 text-lg font-semibold text-gray-700 hover:bg-gray-50">
+                <button class="rounded-lg border border-gray-300 px-8 py-3 text-lg font-semibold text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800">
                     Conoce Nuestros Proyectos
                 </button>
             </div>
 
-            <div class="flex flex-wrap gap-8 border-t border-gray-200 pt-8">
+            <div class="flex flex-wrap gap-8 border-t border-gray-200 pt-8 dark:border-gray-700">
                 <div class="text-center sm:text-left">
-                    <div class="text-2xl font-bold text-gray-900">500+</div>
-                    <div class="text-sm text-gray-600">Familias Beneficiadas</div>
+                    <div class="text-2xl font-bold text-gray-900 dark:text-gray-100">500+</div>
+                    <div class="text-sm text-gray-600 dark:text-gray-300">Familias Beneficiadas</div>
                 </div>
 
                 <div class="text-center sm:text-left">
-                    <div class="text-2xl font-bold text-gray-900">15</div>
-                    <div class="text-sm text-gray-600">Años de Experiencia</div>
+                    <div class="text-2xl font-bold text-gray-900 dark:text-gray-100">15</div>
+                    <div class="text-sm text-gray-600 dark:text-gray-300">Años de Experiencia</div>
                 </div>
 
                 <div class="text-center sm:text-left">
-                    <div class="text-2xl font-bold text-gray-900">25</div>
-                    <div class="text-sm text-gray-600">Voluntarios Activos</div>
+                    <div class="text-2xl font-bold text-gray-900 dark:text-gray-100">25</div>
+                    <div class="text-sm text-gray-600 dark:text-gray-300">Voluntarios Activos</div>
                 </div>
             </div>
         </div>
 
-        <div id="carousel" class="overflow-hidden rounded-2xl shadow-2xl relative w-[480px] h-[270px]" data-carousel="slide">
+        <div id="carousel" class="overflow-hidden rounded-2xl shadow-2xl dark:shadow-black/40 relative w-[480px] h-[270px]" data-carousel="slide">
             {% include carousel.html %}
         </div>
     </div>
