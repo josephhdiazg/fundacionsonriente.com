@@ -14,3 +14,7 @@ exclude:
   - package.json
   - postcss.config.js
   - tailwind.config.js
+
+collections:
+  actividades:
+    output: false
