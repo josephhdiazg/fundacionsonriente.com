@@ -14,6 +14,11 @@ exclude:
   - package.json
   - postcss.config.js
   - tailwind.config.js
+  - donations/
+
+include:
+  - donations/
+  - donations/.env
 
 collections:
   actividades:
